@@ -19,16 +19,5 @@ public class TaxiAuto {
 		if(this.speed>0)
 			this.speed--;
 	}
-	
-	public static void main(String[] args) {
-		TaxiAuto taxi = new TaxiAuto(); 
-		taxi.setSpeed(30); 
-		taxi.beschleunigen(); 
-		taxi.bremsen();
-		taxi.bremsen();
-		System.out.println(taxi.getSpeed()); 
-		
-
-	}
 
 }
